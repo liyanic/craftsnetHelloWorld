@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<script>
+    const socket = new WebSocket("ws://localhost:5001/test/api")
+
+    let i = 0
+    socket.onmessage = (event) => {
+        console.log(event.data)
+    }
+    //http://localhost/debugg/debugg/index.html
+    socket.onopen = (event) => {
+        socket.send("")
+    }
+    socket.onmessage = (onMessageEvent) => {
+
+        console.log(onMessageEvent.data)
+    }
+
+</script>
+</body>
+
+</html>

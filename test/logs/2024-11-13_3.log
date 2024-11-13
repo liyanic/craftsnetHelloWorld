@@ -1,0 +1,14 @@
+09:08:32 INFO  | main: CraftsNet v3.0.6-SNAPSHOT boots up
+09:08:32 INFO  | main: Load all available addons
+09:08:32 INFO  | main: Found addon testapi, add it to load order
+09:08:32 INFO  | main: Loading addon testapi...
+09:08:32 INFO  | main: Enabling addon testapi...
+09:08:32 INFO  | main: All addons were loaded within 224ms
+09:08:32 INFO  | main: Setting up the web server
+09:08:32 INFO  | main: Setting up the websocket server
+09:08:32 INFO  | main: Starting websocket server on port 5001
+09:08:32 INFO  | main: Backend was successfully started after 312ms
+09:08:38 INFO  | CraftsNet Shutdown: Shutdown request has been received
+09:08:38 INFO  | CraftsNet Shutdown: Closing the console input listener
+09:08:38 INFO  | CraftsNet Shutdown: Disabling addon testapi
+09:08:38 INFO  | CraftsNet Shutdown: Disconnecting the file logger

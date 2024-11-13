@@ -1,0 +1,34 @@
+09:13:00 INFO  | main: CraftsNet v3.0.6-SNAPSHOT boots up
+09:13:00 DEBUG | main: JVM Version: 21.0.3+7-LTS-152; Max recognizable class file version: 65.0
+09:13:00 DEBUG | main: Initialization of system variables
+09:13:00 INFO  | main: Load all available addons
+09:13:01 DEBUG | main: Checked jvm compatibility for testapi within 0ms
+09:13:01 INFO  | main: Found addon testapi, add it to load order
+09:13:01 INFO  | main: Loading addon testapi...
+09:13:01 INFO  | main: Enabling addon testapi...
+09:13:01 INFO  | main: All addons were loaded within 143ms
+09:13:01 INFO  | main: Setting up the web server
+09:13:01 INFO  | main: Starting web server on port 80
+09:13:01 DEBUG | main: Creating the API handler
+09:13:01 DEBUG | main: Setting up the executor and starting the web server
+09:13:01 DEBUG | main: Web server has been started
+09:13:01 INFO  | main: Setting up the websocket server
+09:13:01 INFO  | main: Starting websocket server on port 5001
+09:13:01 DEBUG | main: Console listener is started
+09:13:01 DEBUG | main: JVM Shutdown Hook is implemented
+09:13:01 INFO  | main: Backend was successfully started after 307ms
+09:13:30 INFO  | pool-1-thread-1: GET /index.html from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:13:30 INFO  | pool-1-thread-1: GET /favicon.ico from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:13:37 INFO  | pool-1-thread-1: GET /test/index.html from 0:0:0:0:0:0:0:1 [SHARED]
+09:13:37 INFO  | pool-1-thread-1: GET /favicon.ico from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:13:46 INFO  | pool-1-thread-1: GET /test/index.html from 0:0:0:0:0:0:0:1 [SHARED]
+09:13:46 INFO  | pool-1-thread-1: GET /favicon.ico from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:14:40 INFO  | pool-1-thread-1: GET /test/ from 0:0:0:0:0:0:0:1 [SHARED]
+09:14:40 INFO  | pool-1-thread-1: GET /favicon.ico from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:14:43 INFO  | pool-1-thread-1: GET / from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:14:43 INFO  | pool-1-thread-1: GET /favicon.ico from 0:0:0:0:0:0:0:1 [NOT FOUND]
+09:15:58 INFO  | CraftsNet Shutdown: Shutdown request has been received
+09:15:58 INFO  | CraftsNet Shutdown: Closing the console input listener
+09:15:58 DEBUG | CraftsNet Shutdown: Web server will be stopped
+09:15:58 INFO  | CraftsNet Shutdown: Disabling addon testapi
+09:15:58 INFO  | CraftsNet Shutdown: Disconnecting the file logger

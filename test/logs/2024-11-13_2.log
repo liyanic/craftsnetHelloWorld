@@ -1,0 +1,16 @@
+09:05:49 INFO  | main: CraftsNet v3.0.6-SNAPSHOT boots up
+09:05:50 INFO  | main: Load all available addons
+09:05:50 ERROR | main: java.io.FileNotFoundException: Could not locate the addon.json within .\addons\unnamed.jar!
+09:05:50 ERROR | main: 	at de.craftsblock.craftsnet.addon.AddonLoader.load(AddonLoader.java:95)
+09:05:50 ERROR | main: 	at de.craftsblock.craftsnet.addon.AddonManager.<init>(AddonManager.java:51)
+09:05:50 ERROR | main: 	at de.craftsblock.craftsnet.CraftsNet.start(CraftsNet.java:136)
+09:05:50 ERROR | main: 	at de.craftsblock.craftsnet.CraftsNet$Builder.build(CraftsNet.java:719)
+09:05:50 ERROR | main: 	at de.craftsblock.craftsnet.CraftsNet.main(CraftsNet.java:86)
+09:05:50 INFO  | main: All addons were loaded within 132ms
+09:05:50 INFO  | main: Setting up the web server
+09:05:50 INFO  | main: Starting web server on port 5000
+09:05:50 INFO  | main: Setting up the websocket server
+09:05:50 INFO  | main: Backend was successfully started after 383ms
+09:08:30 INFO  | CraftsNet Shutdown: Shutdown request has been received
+09:08:30 INFO  | CraftsNet Shutdown: Closing the console input listener
+09:08:30 INFO  | CraftsNet Shutdown: Disconnecting the file logger

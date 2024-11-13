@@ -1,0 +1,10 @@
+09:04:35 INFO  | main: CraftsNet v3.0.6-SNAPSHOT boots up
+09:04:35 INFO  | main: Load all available addons
+09:04:35 INFO  | main: No addons found to load
+09:04:35 INFO  | main: Setting up the web server
+09:04:35 INFO  | main: Starting web server on port 5000
+09:04:35 INFO  | main: Setting up the websocket server
+09:04:35 INFO  | main: Backend was successfully started after 461ms
+09:04:37 INFO  | CraftsNet Shutdown: Shutdown request has been received
+09:04:37 INFO  | CraftsNet Shutdown: Closing the console input listener
+09:04:37 INFO  | CraftsNet Shutdown: Disconnecting the file logger
